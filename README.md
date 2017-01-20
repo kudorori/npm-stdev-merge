@@ -25,7 +25,7 @@
 # Example
 ```
 var _stdev = require("stdev-merge");
-var stdev = new _stdev([true|false]);
+var stdev = new _stdev();
 
 stdev.push(50,42,6);
 stdev.push(25,45,7);
