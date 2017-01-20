@@ -29,10 +29,10 @@ class _stdev {
 		if(n==0){
 			return 0;
 		}
-		return Math.pow(sd,2)*(n-(this.p?1:0))+new Number(n)*Math.pow(mu,2);
+		return Math.pow(sd,2)*(n-(this.p?0:1))+new Number(n)*Math.pow(mu,2);
 	}
 	_variance(sum,n,mu){
-		return (sum-n*Math.pow(mu,2))/(n-(this.p?1:0));
+		return (sum-n*Math.pow(mu,2))/(n-(this.p?0:1));
 	}
 	get n(){
 		return this.obj.n;
