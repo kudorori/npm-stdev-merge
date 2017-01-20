@@ -7,13 +7,13 @@
 	  "start":"node src/index.js",
 	  "test":"node test/index.js"
   },
-  "license": "ISC"
-   "repository": {
+  "license": "MIT",
+  "repository": {
     "type": "git",
     "url": "http://github.com/kudorori/npm-stdev-merge.git"
   },
   "author": {
     "name": "Ming-Feng Su",
     "email": "kudokawai@gmail.com"
-  },
+  }
 }
